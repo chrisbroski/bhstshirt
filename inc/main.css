@@ -1,0 +1,108 @@
+* {box-sizing: border-box; }
+html {font-family: droid sans, sans-serif; }
+body {margin: 0; }
+article {margin: 0 auto; padding: 10px 10px 200px; max-width: 600px; }
+article > *:first-child {margin-top: 0; }
+li {margin-bottom: 0.3em; line-height: 1.4em; font-size: 16px; }
+h1 {font-size: 36px; }
+h2 {padding-bottom: 0.2em; border-bottom: 1px solid #bbb; font-size: 28px; }
+h3 {font-size: 24px; }
+h4 {padding: 0.2em; background: #eee; font-size: 20px; }
+p, h5 {line-height: 1.4em; font-size: 17px; }
+pre {padding: 1em; background: #eee; overflow: auto; }
+blockquote {margin: 16px 0; padding: 0 15px; color: #777; border-left: 4px solid #ddd; }
+table {border-collapse: collapse; }
+table td {border: 1px solid #ddd; padding: 6px 13px; }
+
+/* Other Styles */
+a {
+    color: #329bc5;
+}
+
+header {
+    background: #1f2c61;
+    padding: 0 10px;
+    box-shadow: 0 1px 4px #333;
+}
+header h2 {
+    margin: 0 auto 0.2em;
+    padding: 0.5em 0 0.4em 10px;
+    max-width: 600px;
+    border-bottom: 0 none;
+    font-weight: 300;
+    text-shadow: 1px 1px 2px black;
+}
+
+header a, footer a {
+    color: #fff;
+}
+
+h1 {
+    color: maroon;
+    font-weight: 300;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: Poppins, sans-serif;
+    font-weight: 300;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    text-decoration: none;
+}
+
+h5 {
+    margin: 1em 0;
+}
+
+header p {
+    margin: 0 auto;
+    padding: 0.2em 0 0.2em 10px;
+    max-width: 580px;
+}
+
+article aside {
+    margin-left: 10px;
+    padding-left: 20px;
+    width: 240px;
+    float: right;
+    color: #fff;
+    background: #1f2c61;
+}
+
+article aside a {
+    color: #fff;
+}
+
+footer {
+    background: #869ec2;
+    padding: 0 10px;
+    box-shadow: 0 -1px 4px #333;
+}
+
+footer ul {
+    margin: 0 auto;
+    padding: 10px;
+    list-style-type: none;
+    max-width: 600px;
+}
+
+footer ul li {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+@media (max-width: 600px) {
+    /*body {width: auto; }
+    header h2 {margin: 0; }
+    header h2 img {width: 250px; }
+    section {margin: 0 auto; float: none; width: auto; max-width: 400px; }
+    section h3 {text-align: center; }
+    section p {padding-right: 0; }*/
+    article aside {
+        margin-left: 0;
+        padding: 1px 10px;
+        width: auto;
+        float: none;
+    }
+}
